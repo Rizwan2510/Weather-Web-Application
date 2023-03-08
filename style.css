@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen {
+    display: flex;
+}
+
+.left {
+    width: 60vw;
+    height: 100vh;
+}
+
+#main-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    margin: 30px 50px;
+}
+
+.logo-heading {
+    font-weight: bolder;
+}
+
+.logo-span {
+    color: red;
+}
+
+.weather {
+    width: 70%;
+    height: 200px;
+    margin-inline: auto;
+    margin-top: 270px;
+    display: flex;
+}
+
+.temp-heading {
+    font-size: 140px;
+    color: white;
+}
+
+#temprature {
+    width: 40%;
+    height: 100%;
+}
+
+.credentials {
+    width: 40%;
+    height: 100%;
+    padding: 70px 0;
+    color: white;
+}
+
+#weather-image {
+    width: 20%;
+    height: 100%;
+    padding: 70px 0;
+}
+
+#weather-name {
+    padding-left: 8px;
+    color: white;
+}
+
+#w-image {
+    height: 55px;
+}
+
+#searchbar {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    background: none;
+    height: 50px;
+    width: 300px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#searchbar::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.submit-btn {
+    background: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255,0.7);
+    border-radius: 10px;
+    height: 40px;
+    color: rgba(255, 255, 255,0.7);
+}
+
+.submit-btn:hover {
+    background-color: rgba(255, 255, 255,0.4);
+    color: white;
+}
+
+.right {
+    width: 40vw;
+    height: 100vh;
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 40px;
+}
+
+.top {
+        height: 50%;
+}
+
+.search-area {
+    display: flex;
+}
+
+.popular-cities {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-city {
+    width: 20%;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    color: rgba(255, 255, 255,0.7);
+    text-align: start;
+}
+
+.btn {
+    margin: 6px 30px;
+}
+
+.bottom {
+    height: 50%;
+}
+
+.h-line {
+    border-bottom: 1px solid rgba(255, 255, 255,0.7);
+}
+
+.details-heading {
+    color: white;
+    margin: 30px 0;
+}
+
+.detail {
+    color: white;
+    margin: 20px 0;
+    display: flex;
+}
+
+.data {
+    margin-left: auto;
+}
